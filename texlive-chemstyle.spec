@@ -1,3 +1,9 @@
+# revision 20996
+# category Package
+# catalog-ctan /macros/latex/contrib/chemstyle
+# catalog-date 2011-01-05 22:49:37 +0100
+# catalog-license lppl1.3
+# catalog-version 2.0k
 Name:		texlive-chemstyle
 Version:	2.0k
 Release:	1
@@ -62,6 +68,7 @@ documentation uses the auto-pst-pdf package.
 #- source
 %doc %{_texmfdistdir}/source/latex/chemstyle/chemstyle.dtx
 %doc %{_texmfdistdir}/source/latex/chemstyle/chemstyle.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -72,3 +79,5 @@ documentation uses the auto-pst-pdf package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

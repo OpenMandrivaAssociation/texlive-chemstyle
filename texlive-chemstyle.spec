@@ -1,12 +1,12 @@
-# revision 20996
+# revision 25246
 # category Package
 # catalog-ctan /macros/latex/contrib/chemstyle
-# catalog-date 2011-01-05 22:49:37 +0100
+# catalog-date 2012-01-29 01:08:38 +0100
 # catalog-license lppl1.3
-# catalog-version 2.0k
+# catalog-version 2.0l
 Name:		texlive-chemstyle
-Version:	2.0k
-Release:	2
+Version:	2.0l
+Release:	1
 Summary:	Writing chemistry with style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemstyle
@@ -53,8 +53,9 @@ documentation uses the auto-pst-pdf package.
 %{_texmfdistdir}/tex/latex/chemstyle/config/tetlett.chemstyle.cfg
 %doc %{_texmfdistdir}/doc/latex/chemstyle/README
 %doc %{_texmfdistdir}/doc/latex/chemstyle/chemscheme.cdx
-%doc %{_texmfdistdir}/doc/latex/chemstyle/chemstyle-demo.tex
 %doc %{_texmfdistdir}/doc/latex/chemstyle/chemstyle.pdf
+%doc %{_texmfdistdir}/doc/latex/chemstyle/scheme-one.eps
+%doc %{_texmfdistdir}/doc/latex/chemstyle/scheme-two.eps
 #- source
 %doc %{_texmfdistdir}/source/latex/chemstyle/chemstyle.dtx
 %doc %{_texmfdistdir}/source/latex/chemstyle/chemstyle.ins

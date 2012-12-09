@@ -69,3 +69,22 @@ documentation uses the auto-pst-pdf package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0l-1
++ Revision: 770119
+- Update to latest upstream package
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0k-2
++ Revision: 750149
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0k-1
++ Revision: 718046
+- texlive-chemstyle
+- texlive-chemstyle
+- texlive-chemstyle
+- texlive-chemstyle
+- texlive-chemstyle
+

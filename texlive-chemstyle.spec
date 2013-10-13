@@ -1,11 +1,11 @@
-# revision 25246
+# revision 31096
 # category Package
 # catalog-ctan /macros/latex/contrib/chemstyle
-# catalog-date 2012-01-29 01:08:38 +0100
+# catalog-date 2013-07-05 11:22:34 +0200
 # catalog-license lppl1.3
-# catalog-version 2.0l
+# catalog-version 2.0m
 Name:		texlive-chemstyle
-Version:	2.0l
+Version:	2.0m
 Release:	1
 Summary:	Writing chemistry with style
 Group:		Publishing
@@ -53,9 +53,8 @@ documentation uses the auto-pst-pdf package.
 %{_texmfdistdir}/tex/latex/chemstyle/config/tetlett.chemstyle.cfg
 %doc %{_texmfdistdir}/doc/latex/chemstyle/README
 %doc %{_texmfdistdir}/doc/latex/chemstyle/chemscheme.cdx
+%doc %{_texmfdistdir}/doc/latex/chemstyle/chemstyle-demo.tex
 %doc %{_texmfdistdir}/doc/latex/chemstyle/chemstyle.pdf
-%doc %{_texmfdistdir}/doc/latex/chemstyle/scheme-one.eps
-%doc %{_texmfdistdir}/doc/latex/chemstyle/scheme-two.eps
 #- source
 %doc %{_texmfdistdir}/source/latex/chemstyle/chemstyle.dtx
 %doc %{_texmfdistdir}/source/latex/chemstyle/chemstyle.ins
@@ -69,22 +68,3 @@ documentation uses the auto-pst-pdf package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0l-1
-+ Revision: 770119
-- Update to latest upstream package
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0k-2
-+ Revision: 750149
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0k-1
-+ Revision: 718046
-- texlive-chemstyle
-- texlive-chemstyle
-- texlive-chemstyle
-- texlive-chemstyle
-- texlive-chemstyle
-

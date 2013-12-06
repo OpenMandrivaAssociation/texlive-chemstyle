@@ -6,7 +6,7 @@
 # catalog-version 2.0m
 Name:		texlive-chemstyle
 Version:	2.0m
-Release:	1
+Release:	2
 Summary:	Writing chemistry with style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemstyle

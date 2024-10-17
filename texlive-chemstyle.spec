@@ -3,7 +3,7 @@ Version:	31096
 Release:	2
 Summary:	Writing chemistry with style
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemstyle
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/chemstyle
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemstyle.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemstyle.doc.r%{version}.tar.xz
